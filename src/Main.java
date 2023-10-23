@@ -1,3 +1,9 @@
+import artykuly.ArtykulRolniczy;
+import artykuly.Owoc;
+import artykuly.Warzywo;
+import sklep.SklepRolniczy;
+
+
 import java.util.List;
 
 public class Main {

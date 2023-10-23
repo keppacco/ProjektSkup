@@ -1,4 +1,6 @@
-class Owoc extends ArtykulRolniczy {
+package artykuly;
+
+public class Owoc extends ArtykulRolniczy {
     public Owoc(String nazwa, double cenaJednostkowa) {
         super(nazwa, cenaJednostkowa);
     }

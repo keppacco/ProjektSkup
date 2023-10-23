@@ -1,4 +1,6 @@
-class Warzywo extends ArtykulRolniczy {
+package artykuly;
+
+public class Warzywo extends ArtykulRolniczy {
     public Warzywo(String nazwa, double cenaJednostkowa) {
         super(nazwa, cenaJednostkowa);
     }

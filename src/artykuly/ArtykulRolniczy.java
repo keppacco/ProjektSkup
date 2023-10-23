@@ -1,3 +1,5 @@
+package artykuly;
+
 public abstract class ArtykulRolniczy {
     private String nazwa;
     private double cenaJednostkowa;

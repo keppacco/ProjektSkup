@@ -1,3 +1,7 @@
+package sklep;
+
+import artykuly.ArtykulRolniczy;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
