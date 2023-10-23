@@ -69,6 +69,6 @@ public class Main {
         }
 
         double wartoscMagazynu = sklep.obliczWartoscMagazynu();
-        System.out.println("Wartość magazynu: " + wartoscMagazynu + " zł");
+        System.out.println("Wartość magazynu: " + Math.floor(wartoscMagazynu) + " zł");
     }
 }
