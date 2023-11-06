@@ -92,12 +92,14 @@ public class Main {
         sklep.usunArtykul("Arbuz");
         sklep.usunArtykul("Cebula");
 
+        System.out.println("--------------------------------------------");
 
         ArtykulRolniczy znalezionyArtykul = sklep.znajdzArtykul("Ziemniak");
         if (znalezionyArtykul != null) {
             System.out.println("Znaleziono artykuł: " + znalezionyArtykul.getNazwa());
         }
 
+        System.out.println("--------------------------------------------");
 
         sklep.sortujArtykuly();
         List<ArtykulRolniczy> posortowaneArtykuly = sklep.pobierzArtykuly();
@@ -106,7 +108,13 @@ public class Main {
             System.out.println(artykul.getNazwa());
         }
 
+        System.out.println("--------------------------------------------");
+
+
         double wartoscMagazynu = sklep.obliczWartoscMagazynu();
         System.out.println("Wartość magazynu: " + Math.floor(wartoscMagazynu) + " zł");
+
+        System.out.println("--------------------------------------------");
     }
+
 }

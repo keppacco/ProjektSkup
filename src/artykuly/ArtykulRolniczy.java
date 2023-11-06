@@ -10,7 +10,7 @@ public abstract class ArtykulRolniczy {
     }
 
     public ArtykulRolniczy(String nazwa) {
-        this(nazwa, 0); // Domyślna cena zerowa
+        this(nazwa, 0);
     }
 
     public String getNazwa() {
@@ -38,6 +38,6 @@ public abstract class ArtykulRolniczy {
     public abstract double obliczCene(int ilosc);
 
     public double obliczCene() {
-        return obliczCene(1); // Przeciążona metoda z domyślną ilością 1
+        return obliczCene(1);
     }
 }

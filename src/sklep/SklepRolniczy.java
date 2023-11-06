@@ -81,7 +81,7 @@ public class SklepRolniczy implements Magazyn {
         if (magazyn.containsKey(nazwa)) {
             magazyn.remove(nazwa);
             dostepneArtykuly.remove(nazwa);
-            // Usuwamy także z listy artykułów
+
             artykulyLista.removeIf(artykul -> artykul.getNazwa().equals(nazwa));
             System.out.println("Usunięto artykuł: " + nazwa);
         } else {

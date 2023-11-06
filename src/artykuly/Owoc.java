@@ -7,7 +7,7 @@ public class Owoc extends ArtykulRolniczy {
 
     @Override
     public double obliczCene(int ilosc) {
-        // Dodajmy 10% rabatu na owoce
+
         return getCenaJednostkowa() * ilosc * 0.9;
     }
 }
