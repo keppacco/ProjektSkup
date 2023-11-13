@@ -41,6 +41,6 @@ public class Main {
         sklep.wypiszProdukty();
     }
 }
-
+```
  ## Autor
 Piotr Łata
