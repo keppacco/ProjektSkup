@@ -42,4 +42,5 @@ public class Main {
     }
 }
 
-Autor: Piotr Łata 
+ ## Autor
+Piotr Łata
